@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { HiChevronLeft, HiRefresh } from "react-icons/hi";
+import { HiChevronLeft } from "react-icons/hi";
 
 import api from "./services/api.js";
 import Quote from "./Quote";
