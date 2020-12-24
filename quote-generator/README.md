@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://devchallenge-404.vercel.app/">
+    <a href="https://devchallenges-quotes.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -40,28 +40,23 @@
 
 - Where can I see your demo?
 
-Check it [here](https://devchallenge-404.vercel.app/).
+Check it [here](https://devchallenges-quotes.vercel.app/).
 
 - What was your experience?
 
-Developing common things is a great way to remember basic knowledge and face usual problems when developing a page, I've got myself stuck in two common problems with flexbox.
+Pretty nice, was funny trying to find the easiest (**not the best**) as a challenge to this one.
 
 - What have you learned/improved?
 
-I've remembered the correct way of implements the flexbox 😅.
+I've remembered how to use the hook `useCallback()` in the correct way 😀.
 
 ### Built With
 
-Pure HTML & CSS.
-Fonts powered by [Google Fonts](http://fonts.google.com/)
+ReactJS.
 
 ## Features
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
-
-## Acknowledgements
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 
 ## Contact
 
