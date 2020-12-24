@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](../screenshots/404-challenge.png)
+![screenshot](../screenshots/quote-challenge.png)
 
 - Where can I see your demo?
 
