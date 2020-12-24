@@ -36,7 +36,7 @@ function App() {
         <>
           <Quote data={quote} />
           <button onClick={fetchData} type="button">
-            <HiRefresh size={16} color="#000" />
+            <HiRefresh size={16} color="#4f4f4f" />
             Random
           </button>
         </>

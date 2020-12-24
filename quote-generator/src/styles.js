@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Raleway";
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,32 +30,28 @@ export const Container = styled.div`
     background-color: transparent;
     padding: 5px 15px;
     border: 0;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #4f4f4f;
     cursor: pointer;
-    transition: all 0.1s ease-in-out;
-
-    :hover {
-      background-color: #4f4f4f;
-      color: #fff;
-      transition: all 0.1s ease-in-out;
-
-      svg {
-        fill: #fff;
-        transition: all 0.1s ease-in-out;
-      }
-    }
   }
 
   .me {
     position: absolute;
     margin: 0 auto;
     bottom: 15px;
-    font-weight: bold;
-    color: #4f4f4f;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a9a9a9;
   }
 
   svg {
-    padding-right: 6px;
+    padding: 0 6px;
   }
 `;

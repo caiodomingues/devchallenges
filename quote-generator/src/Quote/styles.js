@@ -10,8 +10,11 @@ export const Container = styled.div`
   margin-top: 5%;
 
   h1 {
-    margin: 0;
-    font-weight: normal;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 120%;
   }
 `;
 
@@ -19,31 +22,37 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 15%;
+  margin-top: 10%;
   cursor: pointer;
   padding: 2.5%;
   transition: all 0.2s ease-in-out;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.16);
 
   a {
     text-decoration: none;
-    font-size: 24px;
+    font-family: Raleway;
+    font-style: normal;
     font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
     color: #4f4f4f;
   }
 
   p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
     color: #828282;
-    margin-top: 4px;
   }
 
   :hover {
     background-color: #333333;
     transition: all 0.2s ease-in-out;
 
-    a,
-    p {
-      color: #fff;
+    a {
+      color: #f2f2f2;
     }
 
     svg {
