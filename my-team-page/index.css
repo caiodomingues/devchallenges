@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  margin-top: 110px;
+  margin-bottom: 96px;
+}
+
+header h1 {
+  font-family: PT Serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  width: 120%;
+}
+
+header h2 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+main {
+  margin: 0;
+  display: flex;
+  gap: 50px 5px;
+  align-content: space-between;
+  flex-flow: column wrap;
+  height: 950px;
+}
+
+main > div:nth-child(3n + 1) {
+  order: 1;
+}
+main > div:nth-child(3n + 2) {
+  order: 2;
+}
+main > div:nth-child(3n) {
+  order: 3;
+}
+
+main > div:nth-child(2) {
+  margin-top: 100px;
+}
+
+main > div {
+  position: relative;
+  width: 263px;
+  margin: 0px;
+}
+main > div img {
+  width: 238px;
+}
+
+main > div h3 {
+  position: absolute;
+  width: 100%;
+  transform-origin: bottom left;
+  transform: rotate(90deg);
+  top: -15px;
+  left: 247px;
+  text-transform: uppercase;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+main > div > p {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+footer {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #a9a9a9;
+  margin-bottom: 28px;
+}
+
+@media (max-width: 975px) {
+  body {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 820px) {
+  header {
+    flex-direction: column;
+  }
+
+  header h1 {
+    margin-bottom: 38px;
+    width: 90%;
+  }
+
+  header p {
+    max-width: 400px;
+  }
+
+  main {
+    height: 1400px;
+  }
+
+  main > div:nth-child(2n + 1) {
+    order: 1;
+  }
+
+  main > div:nth-child(2n) {
+    order: 2;
+  }
+}
+
+@media (max-width: 550px) {
+  header {
+    display: flex;
+    margin-top: 17px;
+    margin-bottom: 60px;
+  }
+
+  header p {
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 310px;
+  }
+
+  main {
+    height: 920px;
+  }
+
+  main > div:nth-child(2n + 1) {
+    order: 1;
+  }
+
+  main > div:nth-child(2n) {
+    order: 2;
+  }
+
+  main > div {
+    width: 160px;
+  }
+
+  main > div img {
+    width: 140px;
+  }
+
+  main > div h3 {
+    top: -12px;
+    left: 147px;
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  main > div > p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
