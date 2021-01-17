@@ -44,7 +44,7 @@ Check it [here](https://devchallenges-my-team.vercel.app/).
 
 - What was your experience?
 
-I made it while streaming (but I was falling asleep 😂). Redid the code the day after and it's 10 times better now 😄.
+I did it live streaming at Twitch (but I was falling asleep 😂). I redid the code the next day and now it's 10 times better 😄.
 
 - What have you learned/improved?
 
